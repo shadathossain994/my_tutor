@@ -208,6 +208,7 @@ font-family: "Poppins", sans-serif;
         padding: 25px;
         border: none;
         border-radius: 10px;
+        box-shadow: 1px 1px 50px 5px #0000001a;
     }
 
     .form h1 {
@@ -343,7 +344,7 @@ font-family: "Poppins", sans-serif;
   /* Join this Program section Start  */
 
       .program-section {
-
+        width: 100%;
         /* background-color: #f8fbfb;   */
         background-color: #f8fbfb;
         padding-bottom: 40px;
@@ -384,6 +385,7 @@ font-family: "Poppins", sans-serif;
 
       .program-card {
         width: 368px;
+        height: 300px;
         background-color: #fff;
         border: none;
         border-radius: 10px;
@@ -425,8 +427,8 @@ font-family: "Poppins", sans-serif;
         margin: 0 auto;
       }
 
-      .explore-container-main {
-        
+      .explore-container-main button {
+        margin: 0 auto;
       }
 
       .explore-container-main > p {
@@ -456,7 +458,7 @@ font-family: "Poppins", sans-serif;
 
       .explore-card {
         width: 360px;
-        height: 378px;
+        height: 420px;
         padding: 30px;
         background-color: #fff;
         border: none;
@@ -464,7 +466,11 @@ font-family: "Poppins", sans-serif;
         box-shadow: 1px 1px 50px 5px #54637A1A;
       }
 
-      .explore-card > div {
+      #shamu-card {
+        margin-top: 20px;
+      }
+
+      .explore-card-main {
         display: flex;
         justify-content: space-between;
       }
@@ -477,17 +483,126 @@ font-family: "Poppins", sans-serif;
         font-size: 16px;
         font-weight: 600;
         color: #43A55D;
-        width: 115px;
-        
-        
+        width: 115px; 
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        border: 1px solid #43A55D; 
+        padding: 2px 5px;
+        border-radius: 3px;
+      }
+
+      .card-profile-icon-container {
+   
+
       }
 
       .card-profile-icon > img {
         width: 17.47px;
         margin-right: 5px;
+      }
+
+      .card-descrip {
+        font-size: 16px;
+        font-weight: 300;
+        font-family: poppins;
+        color: #4D607D;
+        padding-top: 5px;
+      }
+
+      .explore-card-bottom {
+        width: 80%;
         display: flex;
-        ali
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 2px;
+      }
+
+      .explore-card-footer {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .explore-card-footer p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: poppins;
+        color: #006DD9  ;
+      }
+
+  /* Explore Section End  */
+
+
+
+  /* Pro Section Start  */
+
+      .pro-section-container {
+        width: 100%;
+        background-color: #fff;
       }
 
 
-  /* Explore Section End  */
+      .pro-section {
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .cors-descrip {
+        text-align: center;
+      }
+
+      .cors-descrip p {
+        color: #1B99D4;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: poppins;
+        letter-spacing: 1.6px;
+      }
+      .cors-descrip h1{
+        color: #231F40;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+
+      .psd-main h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #333333;
+      }
+      .psd-main p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6F6B80;
+        margin-top: 20px;
+        margin-bottom: 20px;  
+      }
+
+
+      .course-details {
+        font-size: 21px;
+        font-weight: 500;
+        font-family: inter;
+        color: #595665;
+        padding: 20px;
+      }
+
+      .pro-section-divider {
+        display: flex;
+        gap: 60px;
+      }
+
+      .course-unit {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+
+
+
+
+
+
+  /* Pro Section End  */
