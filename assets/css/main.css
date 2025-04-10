@@ -280,17 +280,18 @@ font-family: "Poppins", sans-serif;
 
       .info-section {
         width: 100%;
-        background-color: #86b673;
+        background-color: #fefefe;
         padding: 60px 0;
       }
 
       .info-container {
         width: 80%;
-        background-color: white;
+        background-color: #fff;
         margin: 0 auto;
         border: none;
         border-radius: 10px;
         padding: 30px 50px;
+        box-shadow: 1px 1px 50px 5px #54637A1A;
       }
 
       .info-container-element{
@@ -332,7 +333,8 @@ font-family: "Poppins", sans-serif;
 
       .ice-card > div p {
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 500;
+        color: #4D607D;
       }
 
   /* info section end  */
@@ -341,9 +343,10 @@ font-family: "Poppins", sans-serif;
   /* Join this Program section Start  */
 
       .program-section {
-        width: 100%;
+
         /* background-color: #f8fbfb;   */
-        background-color: #27B94E;
+        background-color: #f8fbfb;
+        padding-bottom: 40px;
       }
 
       .program-container {
@@ -361,6 +364,7 @@ font-family: "Poppins", sans-serif;
         font-size: 16px;
         font-weight: 600;
         font-family: poppins;
+        letter-spacing: 1.6px;
       }
       
       .program-main > h1 {
@@ -372,6 +376,7 @@ font-family: "Poppins", sans-serif;
 
       .program-card-container {
         display: flex;
+        justify-content: center;
         gap: 30px;
         margin-top: 40px;
       }
@@ -383,6 +388,7 @@ font-family: "Poppins", sans-serif;
         border: none;
         border-radius: 10px;
         padding: 25px;
+        box-shadow: 1px 1px 50px 5px #54637A1A;
       }
 
       .program-card img {
@@ -420,7 +426,7 @@ font-family: "Poppins", sans-serif;
       }
 
       .explore-container-main {
-
+        
       }
 
       .explore-container-main > p {
@@ -429,6 +435,8 @@ font-family: "Poppins", sans-serif;
         font-family: poppins;
         color: #1B99D4;
         text-align: center;
+        letter-spacing: 1.6px;
+        margin-bottom: 10px;
       }
       .explore-container-main > h1 {
         font-size: 32px;
@@ -441,13 +449,45 @@ font-family: "Poppins", sans-serif;
       .explore-card-container {
         margin: 60px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         gap: 40px;
-      }
+       }
 
 
       .explore-card {
         width: 360px;
+        height: 378px;
+        padding: 30px;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 50px 5px #54637A1A;
       }
+
+      .explore-card > div {
+        display: flex;
+        justify-content: space-between;
+      }
+      .card-profile {
+        width: 72px;
+        height: 72px;
+      }
+
+      .card-profile-icon {
+        font-size: 16px;
+        font-weight: 600;
+        color: #43A55D;
+        width: 115px;
+        
+        
+      }
+
+      .card-profile-icon > img {
+        width: 17.47px;
+        margin-right: 5px;
+        display: flex;
+        ali
+      }
+
 
   /* Explore Section End  */
