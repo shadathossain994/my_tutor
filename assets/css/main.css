@@ -273,3 +273,181 @@ font-family: "Poppins", sans-serif;
       }
 
   /* Hero section End  */
+
+
+
+  /* info section start  */
+
+      .info-section {
+        width: 100%;
+        background-color: #86b673;
+        padding: 60px 0;
+      }
+
+      .info-container {
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        border: none;
+        border-radius: 10px;
+        padding: 30px 50px;
+      }
+
+      .info-container-element{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .ice-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .ice-card img {
+        width: 58px;
+        height: 58px;
+        background-color: #f4f6f9;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+      }
+
+      .ice-card > div h1 {
+        font-size: 32px;
+        font-weight: 700;
+      }
+
+      .ice-card > div .green {
+        color: #27B94E;
+      }
+      .ice-card > div .yellow {
+        color: #FFA41B;
+      }
+      .ice-card > div .red {
+        color: #D60000;
+      }
+
+      .ice-card > div p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+  /* info section end  */
+
+
+  /* Join this Program section Start  */
+
+      .program-section {
+        width: 100%;
+        /* background-color: #f8fbfb;   */
+        background-color: #27B94E;
+      }
+
+      .program-container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 60px 0;
+      }
+
+      .program-main {
+        text-align: center;
+      }
+
+      .program-main > p {
+        color: #1B99D4;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: poppins;
+      }
+      
+      .program-main > h1 {
+        color: #000000;
+        font-size: 36px;
+        font-weight: 600;
+      }
+
+
+      .program-card-container {
+        display: flex;
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+
+      .program-card {
+        width: 368px;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 25px;
+      }
+
+      .program-card img {
+        width: 70px;
+        height: 70px;
+        padding: 12px;
+        background-color: #1B99D4;
+        border: none;
+        border-radius: 50%;
+      }
+      .program-card h2 {
+        font-size: 21px;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+      .program-card p {
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+  /* Join this Program section End  */
+
+
+  /* Explore Section Start  */
+
+      .explore-section {
+        width: 100%;
+        background-color: white;
+        padding: 60px 0;
+      }
+
+      .explore-container {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .explore-container-main {
+
+      }
+
+      .explore-container-main > p {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: poppins;
+        color: #1B99D4;
+        text-align: center;
+      }
+      .explore-container-main > h1 {
+        font-size: 32px;
+        font-weight: 600;
+        font-family: poppins;
+        color: #231F40;
+        text-align: center;
+      }
+
+      .explore-card-container {
+        margin: 60px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+
+      .explore-card {
+        width: 360px;
+      }
+
+  /* Explore Section End  */
